@@ -1,0 +1,177 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  }
+.search {
+  height: 1px;
+  width: 400px;
+  margin-left: 550px;
+  margin-top: 10px;
+}
+.ant-input{
+  border-radius: 20px;
+}
+.card {
+  border: 1px solid #b1b1b1;
+  
+}
+.card1 {
+  background-color: white;
+  border: 1px solid #b1b1b1;
+  
+}
+.bordernu{
+  border-top-width: 0px;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important; 
+  font-weight: 500;
+}
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: red;
+  pointer-events: none;
+}
+.ant-tabs-tab {
+  color: white !important;
+}
+
+.ant-tabs-tab-active {
+  color: red !important;
+}
+.bg-third {
+  background-color: rgb(45, 45, 45);
+}
+.white{
+  color: white;
+}
+.botradius{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.w-400 {
+  width: 400px;
+}
+.hoverc:hover {
+  color: rgb(170, 170, 170);
+}
+
+.content {
+  min-height: 89.5vh;
+  border: 1px solid #191919;
+}
+.transparent {
+  opacity: 0.3;
+}
+.topradius {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bred {
+  background-color: #191919;
+}
+.wfont {
+  color: white;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i {
+  font-size: 20px;
+}
+
+table {
+  border: 1px solid #b1b1b1;
+}
+thead th {
+  border-bottom: 1px solid #b1b1b1 !important;
+  text-transform: uppercase;
+}
+
+.search-input {
+  height: 60px;
+  border-radius: 5px;
+}
+
+.divider {
+  border-bottom: 1px solid #e1e1e1;
+  margin: 10px 0;
+}
+
+/* seats */
+
+.seat {
+  height: 30px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border : 1px solid #b1b1b1;
+  cursor: pointer;
+}
+
+
+.selected-seat {
+  background-color: red;
+}
+
+.selected-seat h1 {
+  color: white !important;
+}
+
+.booked-seat {
+  background-color: #b1b1b1;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* loader  */
+
+.loader-parent {
+  position: fixed;
+  background-color: black;
+  inset: 0;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.loader {
+  height: 30px;
+  width: 30px;
+  border: 4px solid var(--colour-secondary);
+  border-top-color: var(--colour-primary);
+  border-radius: 50%;
+  animation: loader-anim 1s linear infinite;
+}
+
+.effect:hover {
+transform: translateY(-6px);
+transition: 0.25s ease;
+}
+
+/* loader animation */
+
+@keyframes loader-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
